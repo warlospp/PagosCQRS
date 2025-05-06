@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Pagos API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Pagos API CQRS", Version = "v1" });
 });
 
 builder.Services.AddDbContext<CommandDbContext>(options =>
@@ -25,7 +25,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pagos API v1"));
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pagos API CQRS v1"));
 }
 
 app.MapControllers();
