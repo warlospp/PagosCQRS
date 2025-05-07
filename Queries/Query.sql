@@ -10,6 +10,5 @@ CREATE TABLE Pagos (
 
 select * from Pagos
 
-
 select * from sys.sysprocesses
 where spid >= 50 and loginame = 'warlospp'      
