@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using PagosCQRS.Models;
 
-namespace PagosCQRS.Data
+namespace PagosCQRS.Persistence
 {
     public class CommandDbContext : DbContext
     {

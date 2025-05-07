@@ -1,4 +1,4 @@
-using PagosCQRS.Data;
+using PagosCQRS.Persistence;
 using PagosCQRS.Models;
 
 namespace PagosCQRS.Commands

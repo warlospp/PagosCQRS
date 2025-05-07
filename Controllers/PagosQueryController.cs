@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using PagosCQRS.Commands;
-using PagosCQRS.Data;
+using PagosCQRS.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 [ApiController]

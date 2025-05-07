@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PagosCQRS.Commands;
-using PagosCQRS.Data;
+using PagosCQRS.Persistence;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
